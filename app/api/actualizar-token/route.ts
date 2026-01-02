@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { Octokit } from 'octokit';
 
-const OWNER = 'jorman-viafara';
+const OWNER = 'Bluelink-BPO';
 const REPO = 'CRC_T'; // 🔁 Asegúrate de que este sea el nombre correcto del repo
 const FILE_PATH = 'token.txt';
 
