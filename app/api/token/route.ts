@@ -10,7 +10,7 @@ export const GET = async () => {
     }
 
     const response = await fetch(
-      'https://raw.githubusercontent.com/Bluelink-BPO/CRC_T/refs/heads/main/token.txt' + Date.now(),
+      'https://raw.githubusercontent.com/jorman-viafara/CRC_T/master/token.txt?nocache=' + Date.now(),
       {
         cache: 'no-store',
         headers: {
